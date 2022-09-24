@@ -22,7 +22,7 @@ body {
 header {
     width: 100%;
     /*background-color: #ffffcb;*/
-    background-image: url("../img/fondo.png");
+    background-image: url("../img/fondo_menu.png");
     background-color: #e1b3bd;
     background-size: cover;
     background-attachment: fixed;
@@ -40,7 +40,7 @@ header .menu {
 }
 
 header .menu a {
-    color: #e1b3bd;
+    color: #3c3534;
     font-size: 20px;
     font-weight: 300;
     display: inline-block;
@@ -55,7 +55,7 @@ header .menu a:hover {
 
 header .textos {
     width: 100%;
-    color: #e1b3bd;
+    color: #3c3534;
     position: absolute;
     top: 50%;
     margin-top: -52px;
@@ -70,4 +70,108 @@ header .textos h3 {
     font-weight: 300;
     font-size: 25px;
     font-style: italic;
+}
+
+/* -------------- Main -------------- */
+.main {
+    background-image: url("../img/fondo.png");
+    background-repeat: repeat;
+}
+
+.main .acerca-de .contenedor {
+    overflow: visible;
+    position: relative;
+}
+
+.main .acerca-de .foto {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.main .acerca-de article {
+    background: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    float: right;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+}
+
+.main .acerca-de article h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main .acerca-de article p {
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.main .productos {
+    padding-top: 570px;
+    margin-bottom: 50px;
+}
+
+.main .productos .titulo {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main .productos .contenedor-menu, .main .productos .contenedor-menu2 {
+    border: 1px solid #000;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.main .productos article {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.main .productos .categoria {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .productos .personalizado {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 4px dotted #e1b3bd;
+    overflow: hidden;
+}
+
+.main .productos .personalizado .nombre {
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.main .productos .precio {
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+.main .productos .descripcion {
+    font-size: 16px;
+    color: #676767;
+    clear: both;
 }

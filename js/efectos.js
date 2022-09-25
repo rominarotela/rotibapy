@@ -26,7 +26,7 @@ $(document).ready(function() {
 
     //Efecto Header
     let acercaDe = $('#acerca-de').offset().top,
-        productos = $('#productos').offset().top,
+        productos = $('#lista_productos').offset().top,
         galeria = $('#galeria').offset().top,
         ubicacion = $('#ubicacion').offset().top;
 

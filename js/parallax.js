@@ -10,7 +10,7 @@ $(document).ready(function() {
             });
 
             $('.acerca-de article').css({
-                'transform': 'translate(0px, -' + scroll/4 + '%)'
+                'transform': 'translate(0px, -' + scroll/5 + '%)'
             });
         }
     });
